@@ -1,4 +1,4 @@
-import { UserType } from '../../users/types/UserType';
+import { UserType } from '../../user/types/UserType';
 
 export type PostType = {
   id: number;

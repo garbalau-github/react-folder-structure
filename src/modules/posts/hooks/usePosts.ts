@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { PostType } from '../types/PostType';
-import { UserType } from '../../users/types/UserType';
+import { UserType } from '../../user/types/UserType';
 
 const usePosts = () => {
   const [posts, setPosts] = useState<PostType[]>([]);
