@@ -1,10 +1,18 @@
 import MainLayout from '../../../common/layout/MainLayout';
+import LogIn from '../components/LogIn';
+import useUserContext from '../hooks/useUserContext';
 
 const Profile = () => {
+  const userContext = useUserContext();
+  console.log(userContext);
   return (
     <MainLayout>
       <div>
-        <h1>Hello user</h1>
+        {userContext?.user?.username ? (
+          <h1>Hello {userContext.user?.username}</h1>
+        ) : (
+          <LogIn />
+        )}
       </div>
     </MainLayout>
   );
