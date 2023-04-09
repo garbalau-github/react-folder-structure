@@ -28,5 +28,11 @@
     "title": "Post Five",
     "content": "Lorem ipsum",
     "userId": 3
+  },
+  {
+    "id": 6,
+    "title": "Post Six",
+    "content": "Lorem ipsum",
+    "userId": 42
   }
 ]

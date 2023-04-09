@@ -9,7 +9,7 @@ const Post = ({ post }: PostProps) => {
     <div key={post.id}>
       <h2>{post.title}</h2>
       <p>{post.content}</p>
-      <p>Author: {post.user?.username}</p>
+      {post.user?.username && <p>Author: {post.user?.username}</p>}
     </div>
   );
 };
