@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import RootRouter from './common/routers/RootRouter';
+import AppProvider from './common/providers/AppProvider';
 
 const rootElement = document.getElementById('root') as HTMLElement;
 
 ReactDOM.createRoot(rootElement).render(
   <React.StrictMode>
-    <RootRouter />
+    <AppProvider />
   </React.StrictMode>
 );

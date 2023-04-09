@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "The First Redemption",
+    "content": "Lorem ipsum",
+    "userId": 1
+  },
+  {
+    "id": 2,
+    "title": "The Second Redemption",
+    "content": "Lorem ipsum",
+    "userId": 1
+  },
+  {
+    "id": 3,
+    "title": "The Third Redemption",
+    "content": "Lorem ipsum",
+    "userId": 2
+  },
+  {
+    "id": 4,
+    "title": "The Third Redemption",
+    "content": "Lorem ipsum",
+    "userId": 3
+  }
+]
